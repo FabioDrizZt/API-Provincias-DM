@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#grid-provincias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-item{
+  background-color: #09f;
+  color: #f0f0f0;
+  border-radius: 5px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: all 500ms;
+  &:hover{
+    background-color: purple;
+  }
+}
